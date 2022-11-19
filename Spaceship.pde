@@ -46,6 +46,12 @@ public void setXspeed(double x) {
     myCenterY = (int)(Math.random()*800);
   }
  
-
+ public void fire(){
+   stroke(255,255,0);
+   line((int)myCenterX-25,(int)myCenterY,(int)myCenterX-50,(int)myCenterY);
+    line((int)myCenterX-25,(int)myCenterY +5,(int)myCenterX-50,(int)myCenterY+5);
+     line((int)myCenterX-25,(int)myCenterY-5,(int)myCenterX-50,(int)myCenterY-5);
+     stroke(255);
+ }
 
 }//end of spaceship
