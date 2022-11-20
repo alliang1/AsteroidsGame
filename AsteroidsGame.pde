@@ -33,7 +33,7 @@ public void keyPressed(){
   if(key == 'w')
   {
     bob.accelerate(0.5);
-    bob.fire();
+
   }
  
    if(key == 's')
