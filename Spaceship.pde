@@ -44,6 +44,7 @@ public void setXspeed(double x) {
     myYspeed = x;
     myCenterX = (int)(Math.random()*800);
     myCenterY = (int)(Math.random()*800);
+    myPointDirection = (int)(Math.random()*360);
   }
  
  public void fire(){
