@@ -1,5 +1,5 @@
 class Spaceship extends Floater  
-{
+{ 
 public Spaceship(){
   corners = 11;
   xCorners = new int[corners];
@@ -26,16 +26,16 @@ public Spaceship(){
   yCorners[9] =  8;
   xCorners[10] =  -12;
   yCorners[10] =  3;
- 
+  
   myCenterX = 250;
   myCenterY = 250;
- 
+  
   myColor = 255;
- 
+  
   myXspeed = 0;
   myYspeed = 0;
- 
-  myPointDirection = 50;
+  
+  myPointDirection = 0;
  
 }
 
@@ -47,6 +47,13 @@ public void setXspeed(double x) {
     myPointDirection = (int)(Math.random()*360);
   }
  
+ public void setX(int x){myCenterX = x;}
+    public int getX(){return (int)myCenterX;}  
+    
+    public void setY(int y){myCenterY = y;}   
+    public int getY(){return (int)myCenterY;} 
+    
+    
  public void fire(){
    stroke(255,255,0);
    line((int)myCenterX-25,(int)myCenterY,(int)myCenterX-50,(int)myCenterY);
@@ -54,5 +61,6 @@ public void setXspeed(double x) {
      line((int)myCenterX-25,(int)myCenterY-5,(int)myCenterX-50,(int)myCenterY-5);
      stroke(255);
  }
+
 
 }//end of spaceship
