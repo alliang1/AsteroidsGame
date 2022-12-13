@@ -20,7 +20,3 @@ footer {
 	font-style: italic;
 	font-size: 90%;
 }
-.container{
-	display: grid;
-	grid-auto-columns: auto auto;
-}
