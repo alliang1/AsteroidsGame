@@ -29,7 +29,7 @@ footer {
 .dropdown-content{
 	display: none;
 	position: absolute;
-	width: 1000px;
+	width: 100%;
 	overflow: auto;
 }
 
