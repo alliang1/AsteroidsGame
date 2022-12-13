@@ -19,7 +19,7 @@ public void setup() {
   }
   bob = new Spaceship();
   bumper = new ArrayList <Asteroid>();
-  for (int i = 0; i < 15; i++) {
+  for (int i = 0; i < 10; i++) {
     bumper.add(new Asteroid());
   }
  orb = new ArrayList <Bonus>();
@@ -114,8 +114,8 @@ public void draw()
   if (orb.size() < 2){ 
     orb.add(new Bonus());
   }
-  if (bumper.size() < 10){ 
-    for (int i = 0; i <9; i++){
+  if (bumper.size() < 5){ 
+    for (int i = 0; i <4; i++){
     bumper.add(new Asteroid());}
   }
   
