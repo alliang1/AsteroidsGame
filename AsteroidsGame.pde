@@ -49,7 +49,7 @@ public void draw()
   noStroke();
   rect(0,0,800,80);
   fill(255);
-  text("Time left: " + tim/60,10,50);
+  text("Time left: " + tim,10,50);
   text("Health: " + health,650,50);
   text("Score: " + score,250,50);
   text("Highscore: " + hi,400,50);
