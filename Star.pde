@@ -1,12 +1,15 @@
-class Star //note that this class does NOT extend Floater
+
+    class Star //note that this class does NOT extend Floater
   {
-    private int myX, myY;
+    private int myX, myY,mycol;
     public Star() {
       myX = (int)(Math.random()*800);
       myY = (int)(Math.random()*800);
+      mycol = (int)(Math.random()*255);
     }
     public void show() {
-      fill(255);
-      ellipse(myX, myY, 3, 3);
+      fill(mycol);
+      noStroke();
+      ellipse(myX, myY, 2, 2);
     }
   }
