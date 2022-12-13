@@ -20,3 +20,8 @@ footer {
 	font-style: italic;
 	font-size: 90%;
 }
+
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
