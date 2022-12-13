@@ -47,20 +47,31 @@ public void setXspeed(double x) {
     myPointDirection = (int)(Math.random()*360);
   }
  
- public void setX(int x){myCenterX = x;}
+    public void setX(int x){myCenterX = x;}
     public int getX(){return (int)myCenterX;}  
     
     public void setY(int y){myCenterY = y;}   
     public int getY(){return (int)myCenterY;} 
     
+    public void setsX(int x){myXspeed = x;}
+    public int getsX(){return (int)myXspeed;}  
     
- public void fire(){
-   stroke(255,255,0);
-   line((int)myCenterX-25,(int)myCenterY,(int)myCenterX-50,(int)myCenterY);
-    line((int)myCenterX-25,(int)myCenterY +5,(int)myCenterX-50,(int)myCenterY+5);
-     line((int)myCenterX-25,(int)myCenterY-5,(int)myCenterX-50,(int)myCenterY-5);
-     stroke(255);
- }
+    public void setsY(int y){myYspeed = y;}   
+    public int getsY(){return (int)myYspeed;} 
+    
+    public void setPD(int p){myPointDirection = p;}
+    public int getPD(){return (int)myPointDirection;}  
+    
+   
+  
+    
+ //public void fire(){
+ //  stroke(255,255,0);
+ //  line((int)myCenterX-25,(int)myCenterY,(int)myCenterX-50,(int)myCenterY);
+ //   line((int)myCenterX-25,(int)myCenterY +5,(int)myCenterX-50,(int)myCenterY+5);
+ //    line((int)myCenterX-25,(int)myCenterY-5,(int)myCenterX-50,(int)myCenterY-5);
+ //    stroke(255);
+ //}
 
 
 }//end of spaceship
