@@ -96,7 +96,7 @@ public void draw()
     gif.get(i).move();
     if (dist(bob.getX(), bob.getY(), gif.get(i).getX(), gif.get(i).getY()) <= 10) {
       health = 3;
-      tim = 3600;
+      tim = 1500;
       gif.remove(i);
       
     }
