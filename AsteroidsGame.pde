@@ -6,7 +6,7 @@ ArrayList <Bonus> orb;
 ArrayList <Heal> kit;
 ArrayList <Gift> gif;
 
-int tim = 3600;
+int tim = 1500;
 int bspawn = 4;
 int health = 3;
 int score = 0;
