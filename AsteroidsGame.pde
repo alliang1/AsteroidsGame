@@ -103,7 +103,7 @@ public void draw()
   }
   
   int thing = (int)(Math.random()*20000);
-  System.out.println(thing);
+ 
   if(thing == 12){
     gif.add(new Gift());}
     
