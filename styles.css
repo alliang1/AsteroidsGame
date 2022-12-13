@@ -22,5 +22,5 @@ footer {
 }
 .container{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-auto-columns: auto auto;
 }
